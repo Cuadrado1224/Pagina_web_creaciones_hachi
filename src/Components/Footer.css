@@ -1,0 +1,28 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.social-media {
+    display: flex; 
+    align-items: center; 
+  }
+.social-media a {
+  position: center;
+  margin-right: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8em;
+}
+.social-media a:last-child {
+  margin-right: 0;
+  position: center;
+}
