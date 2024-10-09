@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import imagen from "../Imagenes/hola.jpg";
+import imagen from "/Public/Imagenes/hola.jpg";
 const Main = () => {
   return (
     <section className="section">
